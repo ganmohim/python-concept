@@ -1,2 +1,2 @@
 # python-concept
-Learn Python Concept By Doing
+Learn Python Concept By Coding
