@@ -1,3 +1,11 @@
+"""
+Reverse a list using iterator protocol.
+
+
+Author: GAN MOHIM.
+"""
+
+
 class Reverse:
     """Iterator for looping over a sequence backwards."""
     def __init__(self, data):

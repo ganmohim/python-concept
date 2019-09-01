@@ -1,0 +1,13 @@
+sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.7 3
+
+
+cyberninja@skynet:~/dev/repos/python-concept$ curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 1659k  100 1659k    0     0  1255k      0  0:00:01  0:00:01 --:--:-- 1256k
+
+cyberninja@skynet:~/dev/repos/python-concept$ python get-pip.py
+Collecting pip
+  Downloading https://files.pythonhosted.org/packages/d8/f3/413bab4ff08e1fc4828dfc59996d721917df8e8583ea85385d51125dceff/pip-19.0.3-py2.py3-none-any.whl (1.4MB)
+    100% |████████████████████████████████| 1.4MB 4.0MB/s
+Installing collected packages: pip
